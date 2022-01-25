@@ -20,7 +20,7 @@ public class BalancedBracketsTest {
 
     @Test
     public void noBracketsReturnFalse() {
-        assertFalse(BalancedBrackets.hasBalancedBrackets("ad"));
+        assertTrue(BalancedBrackets.hasBalancedBrackets("ad"));
     }
 
     @Test
